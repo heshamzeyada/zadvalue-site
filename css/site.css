@@ -286,6 +286,7 @@ main:focus{outline:none}
 .zv-logo-link{display:inline-flex;flex:none}
 .zv-dropdown__panel{z-index:50;box-shadow:var(--shadow-md);border:1px solid var(--border);border-radius:var(--radius-lg)}
 .zv-dropdown__panel[hidden],.zv-drawer[hidden]{display:none}
+.zv-dropdown__panel::before{content:'';position:absolute;left:0;right:0;top:-12px;height:12px}
 .zv-dropdown__panel--narrow{min-width:320px;grid-template-columns:1fr}
 .zv-header{position:sticky;top:0;z-index:40}
 .zv-drawer .sub a{padding-left:calc(var(--gutter-sm) + 18px);font:400 16px/22px var(--font-sans);min-height:48px}
