@@ -300,6 +300,7 @@ main:focus{outline:none}
 .prose h2{font:600 26px/34px var(--font-display);margin:40px 0 12px}
 .prose p,.prose li{font:400 17px/28px var(--font-sans);color:var(--ink)}
 .prose ul{padding-left:22px;display:grid;gap:8px}
+.portrait{padding:0}.portrait img{width:100%;height:100%;object-fit:cover;display:block}
 .contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:start}
 .nf{padding:120px 0;text-align:center}
 .nf h1{font:600 72px/78px var(--font-display);color:var(--brand-blue)}
